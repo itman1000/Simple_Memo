@@ -1,0 +1,302 @@
+/***** bodyのスタイル ***************************************/
+body {
+    margin: 0;
+}
+
+
+/***** ヘッダーのスタイル ***************************************/
+header {
+    margin: 0 auto;
+    background-color: #FFF;
+    padding: 10px 0;
+    color: #555;
+    box-shadow: 0 3px 5px #eee;
+}
+
+.custom-header {
+    margin: 0 auto;
+    background-color: #FFF;
+    padding: 10px 0;
+    color: #555;
+    box-shadow: 0 5px 10px gray;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.d-flex a {
+    color: #555;
+    font-size: 14px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.mt-4 {
+    margin-top: 1rem;
+}
+
+.header-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-right span {
+    margin-right: 13px;
+}
+
+
+/***** コンテナのスタイル ***************************************/
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.container-box {
+    width: 800px;
+    margin: 34px auto;
+    padding: 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.title-box {
+    width: 100%;
+    background-color: #eee;
+    border-bottom: 1px solid #ddd;
+    border-radius: 5px 5px 0 0;
+}
+
+.container-box h2 {
+    font-weight: normal;
+    font-size: 14px;
+    padding: 5px 8px;
+    margin: 0;
+}
+
+.container-box form div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #555;
+    margin: 3px 0;
+}
+
+.container-box form div label {
+    width: 150px;
+    margin-right: 8px;
+}
+
+.container-box form div input {
+    height: 24px;
+    padding: 5px;
+    margin: 8px 0;
+}
+
+.container-index input {
+    margin-top: 5px;
+}
+
+.container-index label,
+.container-index h2 {
+    font-size: 16px;
+    margin: 0;
+}
+
+.container-index label {
+    color: #555;
+}
+
+.container-register h2 {
+    color: #555;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.container-register form div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #555;
+    margin: 3px 0;
+}
+
+.container-register form div label {
+    width: 170px;
+    margin-right: 8px;
+}
+
+.container-register form div input {
+    width: 100%;
+    margin: 8px 0;
+}
+
+/***** フォームのスタイル ***************************************/
+form {
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+input[type="text"],
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button,
+input[type="submit"] {
+    width: auto;
+    padding: 5px 13px;
+    border: none;
+    background-color: rgb(94, 94, 255);
+    color: #FFF;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover,
+input[type="submit"]:hover {
+    background-color: rgb(131, 131, 254);
+}
+
+
+/***** ボタンのスタイル ***************************************/
+#return-button,
+#delete-button,
+#edit-button {
+    width: auto;
+    height: auto;
+    border: none;
+    color: #FFF;
+    cursor: pointer;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+#edit-button {
+    padding: 7.5px 13px;
+    background-color: rgb(11, 138, 83);
+}
+
+#edit-button:hover {
+    background-color: rgb(10, 185, 106);
+}
+
+#return-button {
+    padding: 5px 10px;
+    margin-right: 8px;
+    background-color: rgb(94, 94, 255);
+}
+
+#return-button:hover {
+    background-color: rgb(131, 131, 254);
+}
+
+#delete-button {
+    background-color: rgb(189, 30, 30);
+}
+
+#delete-button:hover {
+    background-color: rgb(195, 74, 74);
+}
+
+#register-button {
+    margin-top: 34px;
+}
+
+/***** メモ一覧のテーブルスタイル ***************************************/
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 5px;
+}
+
+table th, table td {
+    max-width: 500px;
+    padding: 5px 8px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+table tr:last-child td {
+    border-bottom: none;
+}
+
+table th:first-child,
+table td:first-child {
+    width: 40px;
+}
+
+table th:nth-child(2),
+table td:nth-child(2) {
+    max-width: 500px;
+}
+
+table th:nth-child(3),
+table td:nth-child(3) {
+    width: 140px;
+}
+
+table th:nth-child(4),
+table td:nth-child(4) {
+    width: 140px;
+}
+
+table th:nth-child(5),
+table td:nth-child(5) {
+    width: 60px;
+}
+
+table th:nth-child(6),
+table td:nth-child(6) {
+    width: 60px;
+}
+
+/***** 編集ページのスタイル ***************************************/
+.edit-page-title {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.edit-form {
+    padding: 20px;
+    margin-top: 8px;
+}
+
+label.form-label {
+    color: #555;
+    font-size: 14px;
+}
+
+.edit-form-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+
+/***** エラーメッセージのスタイル ***************************************/
+.errors li {
+    color: red;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+    list-style-type: none;
+}
