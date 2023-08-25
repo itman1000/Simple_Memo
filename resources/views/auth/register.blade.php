@@ -1,4 +1,4 @@
-<x-layout>
+{{-- <x-layout> --}}
     <div class="container">
         <div class="container-register">
             <h2>ユーザー登録</h2>
@@ -35,4 +35,4 @@
             </div>
         @endif
     </div>
-</x-layout>
+{{-- </x-layout> --}}

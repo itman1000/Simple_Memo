@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Memo</title>
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    @livewireStyles
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body>
     <header>
@@ -33,6 +35,7 @@
         {{ $slot }}
     </main>
 
+    @livewireScripts
     <script src="{{ asset('js/app.js') }}"></script>
 </body>
 </html>

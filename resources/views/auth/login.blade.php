@@ -1,4 +1,4 @@
-<x-layout>
+{{-- <x-layout> --}}
     <div class="container">
         <div class="container-box">
             <div class="title-box">
@@ -32,4 +32,4 @@
             @endif
         </div>
     </div>
-</x-layout>
+{{-- </x-layout> --}}

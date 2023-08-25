@@ -9,9 +9,11 @@
 </head>
 <body>
     <main>
-        <a href="{{ route('counter') }}">Go to Counter</a>
+        {{ $slot }}
     </main>
 
     @livewireScripts
 </body>
 </html>
+
+
