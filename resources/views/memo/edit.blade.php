@@ -1,4 +1,4 @@
-<x-layout>
+{{-- <x-layout> --}}
 
     <form action="{{ route('memos.update', $memo->id) }}" method="POST" class="edit-form">
         @csrf
@@ -25,4 +25,4 @@
         </div>
     @endif
 
-</x-layout>
+{{-- </x-layout> --}}

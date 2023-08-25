@@ -1,4 +1,4 @@
-<x-layout>
+{{-- <x-layout> --}}
     <div class="container">
         <div class="container-index">
             <form action="{{ route('memos.store') }}" method="post">
@@ -54,4 +54,4 @@
             </tbody>
         </table>
     </div>
-</x-layout>
+{{-- </x-layout> --}}
